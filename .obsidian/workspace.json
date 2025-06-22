@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EJBs/Quick Start.md",
+                "file": "JSP & Servlet/Quick Start.md",
                 "mode": "source",
                 "source": false
               },
@@ -170,7 +170,7 @@
   },
   "active": "a217cc6007b8bbd7",
   "lastOpenFiles": [
-    "JSP & Servlet/Quick Start.md",
-    "EJBs/Quick Start.md"
+    "EJBs/Quick Start.md",
+    "JSP & Servlet/Quick Start.md"
   ]
 }
