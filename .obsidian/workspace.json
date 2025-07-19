@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EJBs/Quick Start.md",
+                "file": "Regex/Quick start.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quick Start"
+              "title": "Quick start"
             }
           }
         ]
@@ -170,8 +170,10 @@
   },
   "active": "a217cc6007b8bbd7",
   "lastOpenFiles": [
-    "You think you Know Git 😆/Git.md",
+    "Design Patterns/java_design_patterns_guide.md",
+    "Regex/Quick start.md",
     "EJBs/Quick Start.md",
+    "You think you Know Git 😆/Git.md",
     "You think you Know Git 😆",
     "JSP & Servlet/Quick Start.md"
   ]
