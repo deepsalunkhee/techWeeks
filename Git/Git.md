@@ -304,19 +304,71 @@ gitk --all
 
 ---
 
-## ✅ **That’s it!**
+## 🧳 **11. `git stash`: Save Changes Without Committing**
 
-You now have a **clear understanding** of:
+### 🧠 **What is it?**
 
-- Core Git flow
+- `git stash` lets you **temporarily save** your uncommitted changes.
     
-- Branching & switching
+- Useful when you need to **switch branches** but don’t want to commit half-done work.
     
-- How commits move (or don’t!)
+
+---
+
+### ✅ **Basic Workflow**
+
+```bash
+git stash            # Save all uncommitted changes
+git checkout other-branch
+# Do work...
+git checkout original-branch
+git stash pop        # Apply stashed changes and remove from stash
+```
+
+---
+
+### 🔍 **How It Works**
+
+|Command|What It Does|
+|---|---|
+|`git stash`|Save modified + staged changes|
+|`git stash -u`|Also stash untracked files (like `new.js`)|
+|`git stash list`|See all stashes|
+|`git stash show`|See changes in latest stash|
+|`git stash apply`|Apply stash but **keep it**|
+|`git stash pop`|Apply stash and **remove it**|
+|`git stash drop`|Remove a specific stash|
+|`git stash clear`|Delete all stashes|
+
+---
+
+### 🔁 **Example: Multiple Stashes**
+
+```bash
+git stash          # stash@{0}
+# make more changes
+git stash          # stash@{1}
+git stash list     # Shows both stashes
+git stash apply stash@{0}
+git stash drop stash@{0}
+```
+
+---
+
+### ⚠️ **Important Notes**
+
+- `stash` only saves changes **not committed yet**.
     
-- How `amend` works
+- It doesn’t stash **ignored files** by default.
     
-- How to visualize your history with `gitk`
+- Stash can be helpful for:
+    
+    - Switching branches
+        
+    - Pulling new changes safely
+        
+    - Temporary experiments
+        
     
 
 ---

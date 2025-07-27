@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSP & Servlet/Quick Start.md",
+                "file": "Git/Git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quick Start"
+              "title": "Git"
             }
           }
         ]
@@ -170,6 +170,10 @@
   },
   "active": "a217cc6007b8bbd7",
   "lastOpenFiles": [
+    "OracleDb/Quick start.md",
+    "JSP & Servlet/Quick Start.md",
+    "Untitled.md",
+    "OracleDb",
     "eclipse/jspServletStarter/src/main/webapp/hello.jsp",
     "eclipse/jspServletStarter/build/classes/com/starter/Hello.class",
     "eclipse/jspServletStarter/build/classes/com/starter",
@@ -179,11 +183,8 @@
     "eclipse/jspServletStarter/src/main/java/com",
     "eclipse/jspServletStarter/src/main/java/Hello.java",
     "eclipse/jspServletStarter/build/classes/com.starter/com/starter",
-    "eclipse/jspServletStarter/build/classes/com.starter/com",
-    "eclipse/jspServletStarter/src/main/java/com.starter/com/starter",
     "JSP & Servlet/The flow.md",
     "JSP & Servlet/JSP and Servlet - What, Why, When, How.md",
-    "JSP & Servlet/Quick Start.md",
     "Regex/Quick start.md",
     "Design Patterns/java_design_patterns_guide.md",
     "EJBs/Quick Start.md",
