@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git.md",
+                "file": "OracleDb/SQL Quick start.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "SQL Quick start"
             }
           }
         ]
@@ -171,6 +171,8 @@
   "active": "a217cc6007b8bbd7",
   "lastOpenFiles": [
     "OracleDb/Quick start.md",
+    "OracleDb/SQL Quick start.md",
+    "Git/Git.md",
     "JSP & Servlet/Quick Start.md",
     "Untitled.md",
     "OracleDb",
