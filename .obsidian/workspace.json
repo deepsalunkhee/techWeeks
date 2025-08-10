@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Productivity Tools/tmux/cheat sheet.md",
+                "file": "Dependency Injection in Java/Quick Start.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cheat sheet"
+              "title": "Quick Start"
             }
           }
         ]
@@ -170,8 +170,14 @@
   },
   "active": "1ac56a32a6e19649",
   "lastOpenFiles": [
-    "Productivity Tools/Untitled.md",
+    "Productivity Tools/Bash/Bash Cheat sheets.md",
+    "Dependency Injection in Java/Quick Start.md",
+    "Dependency Injection in Java",
+    "Productivity Tools/Linux Commands/List of Commands.md",
+    "Productivity Tools/Bash",
     "Productivity Tools/tmux/cheat sheet.md",
+    "Productivity Tools/Linux Commands",
+    "Productivity Tools/Untitled.md",
     "Productivity Tools/tmux",
     "Productivity Tools/Intellij/IntelliJ Shortcuts.md",
     "Productivity Tools/Intellij/IntelliJIDEA_ReferenceCard.pdf",
@@ -185,9 +191,6 @@
     "OracleDb",
     "eclipse/jspServletStarter/src/main/webapp/hello.jsp",
     "eclipse/jspServletStarter/build/classes/com/starter/Hello.class",
-    "eclipse/jspServletStarter/build/classes/com/starter",
-    "eclipse/jspServletStarter/build/classes/com",
-    "eclipse/jspServletStarter/src/main/java/com/starter/Hello.java",
     "JSP & Servlet/The flow.md",
     "JSP & Servlet/JSP and Servlet - What, Why, When, How.md",
     "Regex/Quick start.md",
