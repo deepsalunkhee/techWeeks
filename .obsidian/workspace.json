@@ -33,8 +33,7 @@
               "title": "Notes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "84c3a77aac8c6600",
@@ -183,10 +181,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b5b7a445ada4cda",
+  "active": "cc453e8b117b89e1",
   "lastOpenFiles": [
-    "Java/Java EE/Beginning Java EE 7 Notes/[JAVA][Beginning Java EE 7].pdf",
     "Java/Java EE/Beginning Java EE 7 Notes/Notes.md",
+    "Java/Java EE/Beginning Java EE 7 Notes/[JAVA][Beginning Java EE 7].pdf",
     "Untitled.base",
     "Untitled 4.base",
     "Untitled 3.base",
