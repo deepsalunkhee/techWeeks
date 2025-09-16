@@ -218,3 +218,16 @@ Annotation to use while dependency ejection [[[JAVA][Beginning Java EE 7].pdf#pa
 - @Qualifier,
 - @Qualifier with members,
 - @Alternatives
+- @Produces: used to inject normal pojos wihout bean.xml
+- Injection point : when point of injection should be known ex loggers
+- @Despose
+
+Scopes
+
+add section
+
+add about serializable class in java.io
+- @ApplicationScoped
+- @RequestScoped
+- @ConversationScoped
+- @Dependent
