@@ -231,3 +231,34 @@ add about serializable class in java.io
 - @RequestScoped
 - @ConversationScoped
 - @Dependent
+
+=>@ Named [[[JAVA][Beginning Java EE 7].pdf#page=50&selection=17,0,22,43|[JAVA][Beginning Java EE 7], page 50]]
+
+=>way to use a service in jsf [[[JAVA][Beginning Java EE 7].pdf#page=50&selection=68,0,70,3|[JAVA][Beginning Java EE 7], page 50]]
+
+
+=>Interceptor : some thing to execute something while in the process of calling CDI bean. [[[JAVA][Beginning Java EE 7].pdf#page=50&selection=86,0,86,12|[JAVA][Beginning Java EE 7], page 50]]
+
+=> Defination of invocation context interface [[[JAVA][Beginning Java EE 7].pdf#page=52&selection=69,0,69,44|[JAVA][Beginning Java EE 7], page 52]]
+
+![[Pasted image 20250920125815.png]]
+
+=> Creating a common interceptor [[[JAVA][Beginning Java EE 7].pdf#page=53&selection=48,0,48,29|[JAVA][Beginning Java EE 7], page 53]]
+
+=> Channing the interceptor [[[JAVA][Beginning Java EE 7].pdf#page=56&selection=90,0,90,35|[JAVA][Beginning Java EE 7], page 56]]
+
+=> ok but .. .Interceptor Binding Interceptors are defined in their ow
+
+=> prioritizing interceptor [[[JAVA][Beginning Java EE 7].pdf#page=59&selection=17,0,17,33|[JAVA][Beginning Java EE 7], page 59]]
+
+=> Decorators [[[JAVA][Beginning Java EE 7].pdf#page=60&selection=20,0,20,20|[JAVA][Beginning Java EE 7], page 60]]
+
+=> Events (this is the shit we are talking about ) [[[JAVA][Beginning Java EE 7].pdf#page=61&selection=27,0,29,45|[JAVA][Beginning Java EE 7], page 61]]
+
+In this chapter you have learned the difference between a POJO, a Managed Bean, and a CDI Bean and which services apply to which component model. Dependency Injection (JSR 330) and Contexts and Dependency Injection (JSR 299) both bring a standard, portable, and typesafe support for dependency injection to Java EE. CDI adds extra features such as scopes and contexts but also enhanced interceptors, decorators, and events. In fact, CDI natively implements several design patterns like the bridge (with alternatives), the observer/observable (with events), the decorator, the factory (with producers), and of course interception and injection. Interceptors are the AOP-like mechanism of Java EE, allowing the container to invoke cross-cutting concerns on your application. Interceptors are easy to use, are powerful, and can be chained together or prioritized to apply several concerns to your beans. CDI, being a vertical specification, is used in other Java EE specifications. In fact, the next chapters of this book will use some of these CDI services in some way
+
+
+
+Chapter 3: Bean validation.
+
+
