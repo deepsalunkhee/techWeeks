@@ -1,4 +1,4 @@
-
+	
 Chapter1: Introduction
 
 - The first thing you should understand :[[[JAVA][Beginning Java EE 7].pdf#page=8&selection=17,0,17,12|[JAVA][Beginning Java EE 7], page 8]]
@@ -260,5 +260,54 @@ In this chapter you have learned the difference between a POJO, a Managed Bean, 
 
 
 Chapter 3: Bean validation.
+
+need of bean validation : [[[JAVA][Beginning Java EE 7].pdf#page=75&selection=31,0,36,27|[JAVA][Beginning Java EE 7], page 75]]
+
+wrting contrains [[[JAVA][Beginning Java EE 7].pdf#page=77&selection=8,0,8,19|[JAVA][Beginning Java EE 7], page 77]]
+
+constrain compositn : using multiple contains [[[JAVA][Beginning Java EE 7].pdf#page=81&selection=18,0,19,20|[JAVA][Beginning Java EE 7], page 81]]
+
+Method level validaator : [[[JAVA][Beginning Java EE 7].pdf#page=87&selection=31,0,35,37|[JAVA][Beginning Java EE 7], page 87]]
+
+constain validator constrain [[[JAVA][Beginning Java EE 7].pdf#page=90&selection=35,0,41,17|[JAVA][Beginning Java EE 7], page 90]]
+
+chapter 4:
+
+
+so basicaly jpa is like a specification for being able to speaking with the db without actualy using the sql , lke we do whiel uisng direct jdbc 
+
+some of the famous implementation of jpa is Heberntis\
+
+Intro to  the annotation [[[JAVA][Beginning Java EE 7].pdf#page=112&selection=9,18,10,37|[JAVA][Beginning Java EE 7], page 112]]
+
+Chapter 4: Object relational mapping
+
+- jpa @table annotation
+- jap secondary table.
+- diff ways to create composit key via jpa
+- other basic annotaion including temporal,transient,enumerated,
+- @elementt collection
+- xml based  mapping
+- types of relational mapping
+- Fetching relationship and ordering them
+- In hertance mapping
+Chapter 6:Managing persistant  objects
+
+- intro duces JPQL as alternative to SQL
+- intro to entity manger
+- entity manger in application and container manged application
+- intro to persistent context
+- performing operation with entity mager
+- wrtting querites in JPQL
+- intro to criteria API
+- native queries
+- calche api
+- types of locking
+- entity life cycle
+- callback for entity manager
+- callback listner
+
+
+
 
 

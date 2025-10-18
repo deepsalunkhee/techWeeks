@@ -449,3 +449,167 @@ Core Concepts
 ---
 ## ==Behavioral Design Patterns==
 
+### Iterator Pattern
+
+The Iterator Pattern is a behavioral design pattern that provides a way to access the elements of a collection sequentially without exposing the underlying representation.
+
+Formal Definition
+
+```
+The Iterator Pattern is a behavioral design pattern that entrusts the traversal behavior of a collection to a separate design object. It traverses the elements without exposing the underlying operations.
+
+This means whether your collection is an array, a list, a tree, or something custom, you can use an iterator to traverse it in a consistent manner, one element at a time, without worrying about how the data is stored or managed internally.
+```
+
+### Observer Pattern
+
+The Observer Pattern is a behavioral design pattern that defines a one-to-many dependency between objects so that when one object (the subject) changes its state, all its dependents (called observers) are notified and updated automatically.
+
+Formal Definition
+
+```
+The Observer Pattern is a behavioral design pattern where an object, known as the subject, maintains a list of dependents (observers) and notifies them of any state changes, usually by calling one of their methods.
+```
+
+This means if multiple objects are watching another object for updates, they don’t need to keep checking repeatedly. Instead, they get notified as soon as something changes — making the system more efficient and loosely coupled.
+
+Real-Life Analogy
+
+Think of subscribing to a YouTube channel. Once you hit the Subscribe button and turn on notifications, you don’t have to keep visiting the channel to check for new videos. As soon as a new video is uploaded, you get notified instantly.
+In this case:
+
+- The channel is the subject.
+- The subscribers are the observers.
+- The notification is the automatic update mechanism triggered by the subject.
+
+Similarly, in software, when an object (subject) undergoes a change, all registered observers get notified, just like YouTube alerts its subscribers.
+
+### Strategy Pattern
+
+The Strategy Pattern is a behavioral design pattern that defines a family of algorithms, encapsulates each one into a separate class, and makes them interchangeable at runtime depending on the context.
+
+Formal Definition
+
+```
+The Strategy Pattern is a behavioral design pattern that enables selecting an algorithm's behavior at runtime by defining a set of strategies (algorithms), each encapsulated in its own class, and making them interchangeable via a common interface.
+```
+
+It is primarily focused on changing the behavior of an object dynamically, without modifying its class. This promotes better organization of related algorithms and enhances code flexibility and scalability.
+
+Real-Life Analogy
+
+Consider how Uber matches a rider with a driver. The underlying algorithm may change depending on the context, like matching with the nearest driver, giving priority to surge zones, or choosing from an airport queue.
+In this case:
+
+- The ride-matching service is the context.
+- The different matching algorithms (nearest, surge-priority, airport-queue) are the strategies.
+- The strategy interface allows the system to switch between these algorithms seamlessly, depending on real-time conditions.
+
+Similarly, in software, the Strategy Pattern allows a class to use different algorithms or behaviors at runtime, without altering its code structure, just like Uber switches matching strategies based on need.
+
+### Command Pattern
+
+The Command Pattern is a behavioral design pattern that turns a request into a separate object, allowing you to decouple the code that issues the request from the code that performs it.
+
+Formal Definition
+
+```
+The Command Pattern is a behavioral design pattern that encapsulates a request as an object, allowing for parameterization of clients with different requests, queuing of requests, and logging of the requests. It lets you add features like undo, redo, logging, and dynamic command execution without changing the core business logic.
+```
+
+This allows you to execute commands at a later time, in a flexible manner, without having to interact directly with the request's execution details.
+
+Real-Life Analogy
+
+Think of a remote control used to turn on or off the lights or an air conditioner (AC). When you press a button to turn on the lights or adjust the temperature, you don’t need to understand how the internal circuits work or how the AC receives the signal. You just press the "On" or "Off" button, and the remote control takes care of sending the command.
+
+Similarly, the Command Pattern decouples the sender of a request (the remote control) from the receiver (the light or AC), providing flexibility and simplicity in handling commands.
+
+Four Key Components
+
+- Client – Initiates the request and sets up the command object.
+- Invoker – Asks the command to execute the request.
+- Command – Defines a binding between a receiver object and an action.
+- Receiver – Knows how to perform the actions to satisfy a request.
+
+### Template Pattern
+
+Formal Definition
+
+```
+The Template Pattern is a behavioral design pattern that provides a blueprint for executing an algorithm. It allows subclasses to override specific steps of the algorithm, but the overall structure remains the same. This ensures that the invariant parts of the algorithm are not changed, while enabling customization in the variable parts.
+```
+
+Real Life Analogy
+
+Imagine you are following a recipe to bake a cake. The overall process of baking a cake (preheat oven, mix ingredients, bake, and cool) is fixed, but the specific ingredients or flavors may vary (chocolate, vanilla, etc.).
+
+The Template Pattern is like the recipe: it defines the basic structure of the process (steps), while allowing the specific ingredients (or steps) to be varied depending on the cake type.
+
+Key Steps in Template Pattern
+
+The Template Pattern generally consists of four key steps:
+
+###### Template Method (Final Method in Base Class)
+This method defines the skeleton of the algorithm. It calls the various steps and determines their sequence. This method is final to prevent overriding in subclasses, ensuring that the algorithm’s structure stays consistent.
+###### Primitive Operations (Abstract Methods)
+These are abstract methods that subclasses must implement. These methods represent the variable parts of the algorithm that may change based on the subclass’s specific requirements.
+##### Concrete Operations (Final or Concrete Methods)
+These are methods that contain behavior common to all subclasses. They are defined in the base class and are shared by all subclasses.
+##### Hooks (Optional Methods with Default Behavior)
+Hooks are optional methods in the base class that provide default behavior. Subclasses can override these methods to modify the behavior when needed, but they are not mandatory for all subclasses to implement.
+
+By using the Template Pattern, one can ensure that the common steps of an algorithm remain unchanged while allowing subclasses to modify the specific details of the algorithm.
+
+
+### State Pattern
+
+Formal Definition
+```
+The State Pattern is a behavioral design pattern that encapsulates state-specific behavior into separate classes and delegates the behavior to the appropriate state object. This allows the object to change its behavior without altering the underlying code.
+```
+
+This pattern makes it easy to manage state transitions by isolating state-specific behavior into distinct classes. It helps achieve loose coupling by ensuring that each state class is independent and can evolve without affecting others.
+
+Real-Life Analogy
+
+Consider a food delivery app. As an order progresses, its state changes through multiple stages:
+- The order is placed.
+- The order is being prepared.
+- A delivery partner is assigned.
+- The order is picked up.
+- The order is out for delivery.
+- Finally, the order is delivered.
+
+At each stage, the app behaves differently:
+
+- In the "Order Placed" state, you can cancel the order.
+- In the "Order Preparing" state, you can track the preparation status.
+- In the "Delivery Partner Assigned" state, you can see the details of the assigned driver.
+- And so on until the order is delivered.
+
+Each of these states represents a distinct phase, and the app's behavior changes based on which state the order is in. The State Pattern manages these transitions seamlessly, with each state class controlling the behavior for that phase. It also follows Open Closed Principle (OCP), as states can be added without modifying the existing code.
+
+### Chain of Responsibility
+
+Formal Definition
+```
+The Chain of Responsibility Pattern is a behavioral design pattern that transforms particular behaviors into standalone objects called handlers. It allows a request to be passed along a chain of handlers, where each handler decides whether to process the request or pass it to the next handler in the chain.
+```
+
+This pattern decouples the sender of a request from its receivers, giving multiple objects a chance to handle the object.
+
+Key Components
+
+This pattern consists of the following components:
+- Handler: An abstract class or interface that defines the method for handling requests and a reference to the next handler in the chain.
+- Concrete Handler: A class that implements the handler and processes the request if it can. Otherwise, it forwards the request to the next handler.
+- Client: The object that sends the request, typically unaware of the specific handler that will process it.
+
+Real-Life Analogy: Customer Support
+
+Imagine you're working in a customer support system. A customer submits a request that can be handled by multiple support teams, such as basic inquiries, technical issues, or billing problems. The Chain of Responsibility Pattern allows the system to forward the request through a chain of support teams (handlers), with each team deciding if they can resolve the issue or pass it along to the next team. This ensures that each team handles only the requests they are best suited to process, and the customer remains unaware of the chain of responsibility.
+
+How It Works
+
+The client sends a request to the first handler in the chain. If that handler can process the request, it does so. If not, it forwards the request to the next handler. This continues until either the request is handled or the end of the chain is reached. The pattern allows for flexibility by enabling new handlers to be added to the chain without altering existing code. Let's now understand the working of the Chain of Responsibility Pattern through a problem statement.
