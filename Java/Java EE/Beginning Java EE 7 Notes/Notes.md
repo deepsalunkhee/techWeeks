@@ -307,7 +307,30 @@ Chapter 6:Managing persistant  objects
 - callback for entity manager
 - callback listner
 
+Chapter 7: ejb
 
+- intro to ejbs
+- process and embaded container
+- service provided by an ejb container
+- ejb and ejb lie
+- history of ejb
+- Remote, Local, and No-Interface Views
+
+|Interface|Used For|Scope|Extends|Typical Client|
+|---|---|---|---|---|
+|**Remote Interface**|Business methods|Different JVM / machine|`EJBObject`|Remote client|
+|**Local Interface**|Business methods|Same JVM|`EJBLocalObject`|Servlet / EJB in same app|
+|**Remote Home Interface**|Bean creation/finding|Different JVM / machine|`EJBHome`|Remote client|
+|**Local Home Interface**|Bean creation/finding|Same JVM|`EJBLocalHome`|Local client|
+
+- diff web services interface
+- Jndi
+- stateless beans
+- stateful beans
+- singleton beans
+- concurrency while using singleton beans
+- deploying ejbs
+- invoking ejbs
 
 
 
