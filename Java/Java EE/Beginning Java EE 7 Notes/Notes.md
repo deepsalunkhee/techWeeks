@@ -334,3 +334,12 @@ Chapter 7: ejb
 
 
 
+chapter 7:Callbacks, Timer Service, and Authorization
+
+- we start with life cycle of diff ejbs\
+- callback annotation of the ejbs
+- how to schedule a task in ejbs
+- authorization: declarative and programmatic
+
+
+
