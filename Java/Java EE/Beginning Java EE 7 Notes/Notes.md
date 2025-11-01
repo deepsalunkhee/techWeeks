@@ -343,3 +343,13 @@ chapter 7:Callbacks, Timer Service, and Authorization
 
 
 
+chapter 9: Transaction
+
+- starts wiht simple needs of  transaction
+- ACID
+- diff type of readi operations
+- jta local transaction and distributed transaction
+- 2 phase commists
+- session context base rollback
+- roll backs on exceptions
+- cmt vs bmt
