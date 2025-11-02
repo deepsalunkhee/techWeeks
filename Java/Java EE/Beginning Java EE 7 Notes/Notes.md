@@ -353,3 +353,15 @@ chapter 9: Transaction
 - session context base rollback
 - roll backs on exceptions
 - cmt vs bmt
+
+
+chapter 10: JavaServer Faces
+
+- talks the need
+- talks about html,xml,xtml,js and css
+- introduces jsf
+- discussin of facelets, renderer, converter and validators
+- expresssion language
+- some history about jsf, jsp ..
+- error message , core ttributes
+- And much more skipping those things for now as I am preety sure I am not going to use it any time soon ( so will  come back when neede)

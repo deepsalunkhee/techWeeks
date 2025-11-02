@@ -33,7 +33,8 @@
               "title": "Notes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,12 +182,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c095fac9c7467d8f",
+  "active": "bbba1b2af76801f9",
   "lastOpenFiles": [
-    "Java/Java EE/Beginning Java EE 7 Notes/Notes.md",
     "Java/Java EE/Beginning Java EE 7 Notes/[JAVA][Beginning Java EE 7].pdf",
-    "Design Patterns/Deep's Design Pattern Notes.md",
+    "Java/Java EE/Beginning Java EE 7 Notes/Notes.md",
     "Untitled.base",
+    "Design Patterns/Deep's Design Pattern Notes.md",
     "Spring/Pro Spring 5/Spring-5.pdf",
     "Spring/Pro Spring 5/Unconfirmed 296320.crdownload",
     "Spring/Pro Spring 5",
