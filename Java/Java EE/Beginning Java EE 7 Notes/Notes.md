@@ -1,3 +1,4 @@
+
 	
 Chapter1: Introduction
 
@@ -365,3 +366,52 @@ chapter 10: JavaServer Faces
 - some history about jsf, jsp ..
 - error message , core ttributes
 - And much more skipping those things for now as I am preety sure I am not going to use it any time soon ( so will  come back when neede)
+
+cahpter 11: Processing and Navigation
+
+- starts with intro to mvc need
+- ![[Pasted image 20251108101135.png]]
+- how web.xml is using formapping
+- facesContext,facesconfig
+- definign scope for backing beans(managed beans for jsf)
+- error handling and messages
+- bringing jsf and ejbs togetther
+- using navigation rule for redirections
+- conversession and validation
+- controller and validatiors
+- ajax and its need
+- ![[Pasted image 20251108103417.png]]
+
+
+chapter 12: json and xml processing
+
+- starting with talkinga about the bearuty of the xml and json
+- xml validation
+- parsing wiht sax and dom
+- xml specification
+- java and xml
+- and many simlilar concepts of xml and json parser
+- skipping this I think this is kind of topic I will appriciate more when I actualy need to use it
+
+Chapter 13: Messaging
+
+- starting wiht intro to message oriented middle ware
+- ![[Pasted image 20251108133927.png]]
+- intro to p2p and pub-sub model
+- message driven beans
+- how this all fits wiht ejbs and async calls
+- jms calssic api and connection factory, destination,connections and session,messgaes
+- jms simplifiels api,jms context
+- diff between sync and async consumers
+- realy eligant
+
+chapeter 14: soap web services
+
+- intor to soap
+- wsdl in soap serice
+- UDDI
+- and many other things
+  ![[Pasted image 20251108143131.png]]
+
+chapter 15 : restful api
+
