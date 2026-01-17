@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/How Software instruction , ends up something which is physical ..md",
+                "file": "Regex/Quick start.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How Software instruction , ends up something which is physical ."
+              "title": "Quick start"
             }
           }
         ]
@@ -170,8 +170,10 @@
   },
   "active": "95ea9545dd5ea452",
   "lastOpenFiles": [
-    "AI bubble-orb/MCP/Bird Eye.md",
+    "OracleDb/Quick start.md",
+    "OracleDb/SQL Quick start.md",
     "CS/How Software instruction , ends up something which is physical ..md",
+    "AI bubble-orb/MCP/Bird Eye.md",
     "CS",
     "Java/Java EE/Bigger Picture/1.md",
     "AI bubble-orb/MCP",
@@ -190,7 +192,6 @@
     "Untitled.canvas",
     "Git/Git+Cheat+Sheet.png",
     "Git/Git.md",
-    "OracleDb/Quick start.md",
     "Design Patterns/LLD Thread L1.md",
     "Design Patterns/Deep's Design Pattern Notes.md",
     "Design Patterns/java_design_patterns_guide.md",
@@ -202,7 +203,6 @@
     "Z_Images/Pasted image 20251108143131.png",
     "Z_Images/Pasted image 20251108133927.png",
     "Z_Images/Pasted image 20250920125815.png",
-    "OracleDb/SQL Quick start.md",
     "Java/DSAxCP/Z_Basic_Needs_Z.md",
     "Untitled.md",
     "Z_Images/Pasted image 20250823140015.png",
