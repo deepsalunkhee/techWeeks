@@ -613,3 +613,54 @@ Imagine you're working in a customer support system. A customer submits a reques
 How It Works
 
 The client sends a request to the first handler in the chain. If that handler can process the request, it does so. If not, it forwards the request to the next handler. This continues until either the request is handled or the end of the chain is reached. The pattern allows for flexibility by enabling new handlers to be added to the chain without altering existing code. Let's now understand the working of the Chain of Responsibility Pattern through a problem statement.
+
+
+### Visitor Pattern
+
+Formal Defination
+```
+The **Visitor Pattern** is a behavioral design pattern that **lets you add new operations to existing class hierarchies without modifying the classes themselves**. This is achieved by moving the logic of the operation into a separate class, known as the **"visitor"**.
+```
+
+Real-Life Analogy
+
+Imagine a shopping mall where various shops sell different kinds of products. Each shop (element) has a unique way of applying a discount (operation). Rather than having each shop implement its own method for calculating discounts, we create a discount visitor that visits each shop and applies the appropriate discount logic. This way, we can easily add new types of discounts in the future without changing the shop classes.
+
+The Visitor Pattern simplifies complex systems by providing a way to add operations (like discounts) that can be applied to different elements without altering the elements themselves. It decouples operations from the element objects and moves them to separate visitor classes, adhering to the principle of separation of concerns.
+
+### Mediator Pattern
+
+Formal Definition
+```
+The Mediator Pattern is a behavioral design pattern that centralizes complex communication between objects into a single mediation object. It promotes loose coupling and organizes the interaction between components.
+```
+
+Instead of objects communicating directly with each other, they interact through the mediator, which helps simplify and manage their communication.
+
+Real-Life Analogy: Air Traffic Control (ATC)
+
+In an airport, multiple airplanes communicate with the air traffic control (ATC) tower instead of directly with each other. The ATC coordinates their movements, ensuring safe distances and smooth operations. This simplifies communication, as planes rely on the ATC to manage the flow of information, just like the Mediator Pattern centralizes communication between objects in a system.
+
+## Memento Pattern
+
+Formal Definition
+```
+The Memento Pattern is a behavioral design pattern that allows an object to capture its internal state and restore it later without violating encapsulation. It is especially useful when implementing features like undo/redo or rollback.
+```
+
+Key Components
+
+This pattern defines three key components:
+Originator: The object whose internal state we want to save and restore.
+Memento: A storage object that holds the snapshot of the originator’s state.
+Caretaker: The object responsible for requesting the memento and keeping track of it. It neither modifies nor examines the contents of the memento.
+
+
+Real-Life Analogy: Undo/Redo in Text Editors
+
+Think of the Memento Pattern as an undo/redo mechanism. When you type or edit something in a text editor, the application captures snapshots of the document at different points. Each snapshot (memento) is stored by an external caretaker (like a history stack), and the editor (originator) can revert to these snapshots when needed, without exposing its internal logic.
+
+A key strength of the pattern is that the originator alone is responsible for creating its snapshots, thus preserving encapsulation while still allowing state recovery.
+
+---
+
