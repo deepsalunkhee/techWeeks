@@ -41,16 +41,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AngularJS/First Sitting.md",
+                "file": "Running Tech List/IBKR List and Question.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "First Sitting"
+              "title": "IBKR List and Question"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,7 +196,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a6ad6b0c5f8fad7",
+  "active": "95ea9545dd5ea452",
   "lastOpenFiles": [
     "Design Patterns/Deep's Design Pattern Notes.md",
     "Running Tech List/IBKR List and Question.md",

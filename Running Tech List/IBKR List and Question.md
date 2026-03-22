@@ -37,5 +37,6 @@
 | Server & AI Agentic Workflows<br>MCP  | ✅   |     |     |     |     |
 | Universal Dev Setup Script            | ✅   |     |     |     |     |
 | Multithreading                        |     |     |     |     |     |
-| Angular 1.8.3                         |     |     |     |     |     |
+| Angular 1.8.3                         | ✅   |     |     |     |     |
 | XML and Xpath                         | ✅   |     |     |     |     |
+| IBKR AM Architecture & flow           |     |     |     |     |     |
