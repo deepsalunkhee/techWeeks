@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Running Tech List/IBKR List and Question.md",
+                "file": "AngularJS/AngularJS_Study_Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IBKR List and Question"
+              "title": "AngularJS_Study_Notes"
             }
           },
           {
@@ -196,11 +196,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "95ea9545dd5ea452",
+  "active": "043ed8bdb3d0ec58",
   "lastOpenFiles": [
-    "Design Patterns/Deep's Design Pattern Notes.md",
-    "Running Tech List/IBKR List and Question.md",
     "AngularJS/First Sitting.md",
+    "AngularJS/AngularJS_Study_Notes.md",
+    "AngularJS/Unconfirmed 248454.crdownload",
+    "AngularJS/interviewQuestions.pdf",
+    "AngularJS/Unconfirmed 526072.crdownload",
+    "Running Tech List/IBKR List and Question.md",
+    "Design Patterns/Deep's Design Pattern Notes.md",
     "Multithreading and concurrency/Deep's Multithreading and Concurrency Notes.md",
     "AngularJS",
     "Design Patterns/Design Patterns Cheat Sheet.pdf",
@@ -218,9 +222,6 @@
     "AI bubble-orb/MCP",
     "AI bubble-orb",
     "Java/Java EE/Over View.md",
-    "Java/Java EE/Bigger Picture",
-    "Untitled 4.base",
-    "Untitled 1.base",
     "Git/Resolve merge conflicts in intellij.md",
     "Java/Java EE/Beginning Java EE 7 Notes/Notes.md",
     "2025-12-06.md",
@@ -240,7 +241,6 @@
     "Z_Images/Pasted image 20250823140015.png",
     "Productivity Tools/Bash/Bash Cheat sheets.md",
     "Productivity Tools/Linux Commands/List of Commands.md",
-    "Productivity Tools/tmux/cheat sheet.md",
-    "Productivity Tools/Untitled.md"
+    "Productivity Tools/tmux/cheat sheet.md"
   ]
 }

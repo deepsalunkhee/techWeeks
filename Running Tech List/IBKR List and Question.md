@@ -39,4 +39,5 @@
 | Multithreading                        |     |     |     |     |     |
 | Angular 1.8.3                         | ✅   |     |     |     |     |
 | XML and Xpath                         | ✅   |     |     |     |     |
-| IBKR AM Architecture & flow           |     |     |     |     |     |
+| IBKR AM Architecture & flow           | ✅   |     |     |     |     |
+| Remote debugginh                      | ✅   |     |     |     |     |
