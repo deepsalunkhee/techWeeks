@@ -13,26 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AngularJS/AngularJS_Study_Notes.md",
+                "file": "Running Tech List/IBKR List and Question.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AngularJS_Study_Notes"
+              "title": "IBKR List and Question"
             }
           },
           {
             "id": "d634fd4a82c047fd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Design Patterns/Deep's Design Pattern Notes.md",
-                "mode": "source",
-                "source": false
+                "file": "Java/Java EE/Interview_Question/EJB questions.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Deep's Design Pattern Notes"
+              "icon": "lucide-file-text",
+              "title": "EJB questions"
             }
           },
           {
@@ -41,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Running Tech List/IBKR List and Question.md",
+                "file": "Java/Java EE/Interview_Question/Links.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IBKR List and Question"
+              "title": "Links"
             }
           }
         ]
@@ -198,32 +196,34 @@
   },
   "active": "043ed8bdb3d0ec58",
   "lastOpenFiles": [
+    "Java/Java EE/Over View.md",
+    "Java/Java EE/Interview_Question/Links.md",
+    "Java/Java EE/Interview_Question/EJB questions.pdf",
+    "Java/Java EE/Interview_Question/EJB questions 2.pdf",
+    "Design Patterns/Deep's Design Pattern Notes.md",
+    "Running Tech List/IBKR List and Question.md",
+    "Java/Java EE/Beginning Java EE 7 Notes/Notes.md",
+    "Java/Java EE/Interview_Question/Interview bit SPRING.pdf",
+    "Java/Java EE/Interview_Question/Interview bit JSP.pdf",
+    "Java/Java EE/Interview_Question/Unconfirmed 284085.crdownload",
+    "Java/Java EE/Interview_Question/Interview bit JAVAEE.pdf",
+    "Java/Java EE/Interview_Question/Unconfirmed 488516.crdownload",
+    "Java/Java EE/Interview_Question",
+    "Java/Java EE/New folder",
+    "Java/Java EE/Beginning Java EE 7 Notes/[JAVA][Beginning Java EE 7].pdf",
+    "Java/Java EE/Hands on/war-ejb-example.md",
     "AngularJS/First Sitting.md",
     "AngularJS/AngularJS_Study_Notes.md",
-    "AngularJS/Unconfirmed 248454.crdownload",
-    "AngularJS/interviewQuestions.pdf",
-    "AngularJS/Unconfirmed 526072.crdownload",
-    "Running Tech List/IBKR List and Question.md",
-    "Design Patterns/Deep's Design Pattern Notes.md",
     "Multithreading and concurrency/Deep's Multithreading and Concurrency Notes.md",
-    "AngularJS",
-    "Design Patterns/Design Patterns Cheat Sheet.pdf",
-    "Multithreading and concurrency",
     "Design Patterns/LLD Thread L1.md",
     "Design Patterns/java_design_patterns_guide.md",
     "Java/Java EE/Bigger Picture/1.md",
     "AI bubble-orb/MCP/Bird Eye.md",
-    "Running Tech List",
     "Regex/Quick start.md",
     "OracleDb/Quick start.md",
     "OracleDb/SQL Quick start.md",
     "CS/How Software instruction , ends up something which is physical ..md",
-    "CS",
-    "AI bubble-orb/MCP",
-    "AI bubble-orb",
-    "Java/Java EE/Over View.md",
     "Git/Resolve merge conflicts in intellij.md",
-    "Java/Java EE/Beginning Java EE 7 Notes/Notes.md",
     "2025-12-06.md",
     "Untitled.canvas",
     "Git/Git+Cheat+Sheet.png",
@@ -238,9 +238,6 @@
     "Z_Images/Pasted image 20250920125815.png",
     "Java/DSAxCP/Z_Basic_Needs_Z.md",
     "Untitled.md",
-    "Z_Images/Pasted image 20250823140015.png",
-    "Productivity Tools/Bash/Bash Cheat sheets.md",
-    "Productivity Tools/Linux Commands/List of Commands.md",
-    "Productivity Tools/tmux/cheat sheet.md"
+    "Z_Images/Pasted image 20250823140015.png"
   ]
 }

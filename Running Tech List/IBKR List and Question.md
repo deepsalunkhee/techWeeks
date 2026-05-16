@@ -41,3 +41,5 @@
 | XML and Xpath                         | ✅   |     |     |     |     |
 | IBKR AM Architecture & flow           | ✅   |     |     |     |     |
 | Remote debugginh                      | ✅   |     |     |     |     |
+| git work tree                         |     |     |     |     |     |
+| Claude code and MCPs                  |     |     |     |     |     |

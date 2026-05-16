@@ -1,4 +1,5 @@
 
+
 - Java is a high level programming language which runs on some java platforms
 - there are mainly 4 java platforms
 	   - Java SE
